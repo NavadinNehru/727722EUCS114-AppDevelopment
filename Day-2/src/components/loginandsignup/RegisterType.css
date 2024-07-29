@@ -1,0 +1,65 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.register-type-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: transparent;
+  text-align: center;
+}
+
+h2 {
+  color: #3d52a0; /* Black color for "Register As" */
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.register-options {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.register-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+  width: 200px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.client-option {
+  background-color: #3d52a0; /* Green theme for Client */
+}
+
+.client-option:hover {
+  background-color: #8697c4; /* Green theme for Client */
+}
+
+.provider-option {
+  background-color: #7091e6; /* Gray theme for Transportation Provider */
+}
+
+.provider-option:hover {
+  background-color: #8697c4; /* Gray theme for Transportation Provider */
+}
+
+.register-option:hover {
+  transform: scale(1.1);
+}
+
+.option-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.option-text {
+  font-size: 1.2em;
+}
