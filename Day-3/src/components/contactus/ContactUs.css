@@ -1,0 +1,98 @@
+.contact-us {
+  padding: 50px 20px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  background-color: transparent; /* Changed to black for consistency */
+  color: #d8d8d8; /* Text color to match the theme */
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px; /* Space between the sections */
+}
+.contact-form-container {
+  background-color: #8697c4; /* Section background color to match the theme */
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1.5; /* Smaller flex value for the form section */
+  margin-bottom: 20px; /* Gap between contact form and contact info */
+}
+
+.contact-info-container {
+  background-color: #3d52a0; /* Section background color to match the theme */
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Smaller flex value for the info section */
+  align-self: center; /* Align self to the bottom */
+}
+
+.contact-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #d8d8d8; /* Title color to match the theme */
+}
+
+.contact-form {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  text-align: left;
+  flex: 1;
+  /* Allow form to take up available space */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #d8d8d8; /* Changed label color to white */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7091e6; /* Keep the border if desired */
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #3d52a0; /* Changed background to black */
+  color: white; /* Changed text color to white */
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #d8d8d8; /* Button text color to match the theme */
+  background-color: #3d52a0; /* Button background color to match the theme */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #7091e6; /* Darker green for hover effect */
+}
+
+.contact-info-container p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #d8d8d8; /* Changed text color to white */
+}
