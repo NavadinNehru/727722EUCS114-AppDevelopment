@@ -1,0 +1,72 @@
+.dashboard {
+  margin-left: 50px;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.dashboard h1 {
+  margin-bottom: 50px;
+  color: rgb(10, 24, 59);
+}
+
+.cardd-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cardd {
+  background-color: rgb(60, 85, 246);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardd h3 {
+  margin: 0 0 10px;
+}
+
+.cardd p {
+  font-size: 2em;
+  margin: 0;
+}
+
+.dashboard-content {
+  margin-top: 150px;
+}
+
+.revenue-chart {
+  margin-bottom: 100px; /* Add some space between the chart and the recent orders */
+}
+
+.recent-orders {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recent-orders h2 {
+  margin-bottom: 15px;
+}
+
+.recent-orders ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-orders li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.recent-orders li:last-child {
+  border-bottom: none;
+}
+h2 {
+  color: rgb(10, 24, 59);
+}

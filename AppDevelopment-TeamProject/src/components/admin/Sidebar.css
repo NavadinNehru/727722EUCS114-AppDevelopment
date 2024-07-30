@@ -1,0 +1,70 @@
+.sidebar {
+  width: 250px;
+  background-color: rgb(10, 24, 59); /* Updated to the desired color */
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.icons-sidebar {
+  margin-right: 20px;
+}
+.sidebar-header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: left;
+}
+.sidebar-header h2 {
+  /* margin-top: 50px; */
+  /* margin-bottom: 10px; */
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.sidebar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-menu a:hover {
+  background-color: rgb(60, 85, 246); /* Updated for hover effect */
+  /* Text color on hover */
+}
+
+/* Style for active section */
+.sidebar-menu .active {
+  background-color: rgb(60, 85, 246); /* Highlight color for active section */
+  color: #8e44ad; /* Text color for active section */
+}
+
+.sidebar-menu .fa {
+  margin-right: 10px;
+}

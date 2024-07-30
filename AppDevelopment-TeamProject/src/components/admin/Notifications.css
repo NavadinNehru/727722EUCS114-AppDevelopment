@@ -1,0 +1,33 @@
+.notification-section {
+  margin-left: 25px;
+  padding: 20px;
+  /* background-color: blue; */
+}
+
+.notification-section h1 {
+  margin-bottom: 50px;
+}
+
+.notification-list {
+  margin-top: 20px;
+}
+
+.notification-item {
+  background-color: #f4f4f4;
+  border-left: 5px solid rgb(60, 85, 246);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-message {
+  font-size: 16px;
+  margin: 0;
+}
+
+.notification-date {
+  font-size: 12px;
+  color: #888;
+  margin: 5px 0 0;
+}

@@ -1,0 +1,16 @@
+/* src/components/admin/Orders.css */
+.orders {
+  margin-left: 50px;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+}
+
+.chart-container {
+  max-width: 100%;
+  /* height: 100%; */
+  margin: 0 auto;
+}
+.wrapper-orders {
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+}

@@ -1,0 +1,29 @@
+.reports-section {
+    margin-left: 35px;
+    padding: 20px;
+}
+
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.reports-table th,
+.reports-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.reports-table th {
+    background-color: rgb(10, 24, 59);
+    color: white;
+}
+
+.reports-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.reports-table tr:nth-child(odd) {
+    background-color: #3C55F6;
+}
