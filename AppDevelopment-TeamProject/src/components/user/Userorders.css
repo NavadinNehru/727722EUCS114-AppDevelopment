@@ -1,0 +1,73 @@
+.orders-section {
+    margin-left: 280px; /* Adjust based on sidebar width */
+    padding: 20px;
+    background-color: #f4f6f9; /* Light background color for the section */
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-table th,
+.orders-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.orders-table thead {
+    background-color: rgb(10, 24, 59); /* Purple background for table header */
+    color: #ffffff;
+}
+
+.orders-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.orders-table tbody tr:hover {
+    background-color: #3C55F6; /* Hover effect */
+}
+
+.orders-table .status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.orders-table .status.delivered {
+    color: #2ecc71; /* Green color for delivered status */
+}
+
+.orders-table .status.pending {
+    color: #f39c12; /* Orange color for pending status */
+}
+
+.orders-table .status.shipped {
+    color: #3498db; /* Blue color for shipped status */
+}
+
+.orders-table .status.cancelled {
+    color: #e74c3c; /* Red color for cancelled status */
+}
+
+.orders-table .history {
+    display: flex;
+    flex-direction: column;
+}
+
+.orders-table .history-entry {
+    border-top: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.orders-table .history-status {
+    font-weight: bold;
+}
+
+.orders-table .history-date,
+.orders-table .history-location {
+    color: #555;
+}
