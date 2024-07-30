@@ -1,0 +1,68 @@
+.transportation-background {
+  background-image: url("../../Assets/back4.jpg");
+  background-size: cover;
+}
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  width: 50%;
+  opacity: 0.85;
+}
+
+.registration-form {
+  background-color: white;
+  padding: 40px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  width: 400px;
+}
+
+.registration-form h2 {
+  color: rgb(10, 24, 59);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(10, 24, 59);
+  box-sizing: border-box;
+}
+
+/* Placeholder styling */
+.form-group input::placeholder {
+  color: #ffffff;
+}
+
+.registrationT-button {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(10, 24, 59);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(10, 24, 59);
+}

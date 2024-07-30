@@ -1,0 +1,41 @@
+.transportation-partners-container {
+  padding: 50px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  background-color: transparent;
+  color: #4cfc0f;
+  text-align: center;
+}
+
+.transportation-partners-container h2 {
+  color: rgb(10, 24, 59);
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.partner-card {
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.partner-card:hover {
+  transform: scale(1.05);
+}
+
+.partner-card img {
+  width: 100%;
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.partner-card h3 {
+  color: #000000;
+  font-size: 1.2em;
+}

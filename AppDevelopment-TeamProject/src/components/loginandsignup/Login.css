@@ -1,0 +1,100 @@
+.background-login {
+  background-image: url("../../Assets/back4.jpg");
+  background-size:cover ;
+  /* background-color: rgb(10,24,59); */
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 20%; */
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  width: 50%;
+  opacity: 0.85;
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px;
+  /* margin-left: 10%; */
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  width: 400px;
+}
+
+.login-form h2 {
+  color: #000000;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.login-form p {
+  color: grey;
+  text-align: left;
+  /* margin-bottom: 100px; */
+}
+.login-paragraph {
+  color: grey;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  display: block;
+  color: black;
+  margin-bottom: 5px;
+}
+.Dont {
+  text-decoration: none;
+}
+#password {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(10, 24, 59);
+  /* color: rgb(10,24,59); */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+}
+#email {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(10, 24, 59);
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* Placeholder styling */
+.form-group input::placeholder {
+  color: rgb(10,24,59);
+}
+.form-group input {
+  color: rgb(10,24,59);
+}
+
+.error-message {
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(10, 24, 59);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+}
