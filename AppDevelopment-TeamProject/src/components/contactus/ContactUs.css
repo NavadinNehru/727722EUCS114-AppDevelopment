@@ -1,0 +1,121 @@
+.contact-us {
+  padding: 50px 20px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  background-color: transparent; /* Changed to black for consistency */
+  color: #d8d8d8; /* Text color to match the theme */
+  text-align: center;
+  /* max-width: 500px; */
+}
+
+.contact-container {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items at the bottom */
+  gap: 50px; /* Space between the sections */
+}
+
+.contact-form-container {
+  background-color: white; /* Section background color to match the theme */
+  padding: 30px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1.5; /* Smaller flex value for the form section */
+  margin-bottom: 20px; /* Gap between contact form and contact info */
+}
+
+.contact-info-container {
+  background-color: rgb(
+    10,
+    24,
+    59
+  ); /* Section background color to match the theme */
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Smaller flex value for the info section */
+  align-self: center; /* Align self to the bottom */
+}
+#firstName {
+  background-color: white;
+  border-color: rgb(10, 24, 59);
+}
+#lastName {
+  background-color: white;
+  border-color: rgb(10, 24, 59);
+}
+
+#message {
+  border-color: rgb(10, 24, 59);
+}
+
+.contact-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white; /* Title color to match the theme */
+}
+.contactus-h2 {
+  color: rgb(10, 24, 59);
+}
+
+.contact-form {
+  text-align: left;
+  flex: 1; /* Allow form to take up available space */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(10, 24, 59); /* Changed label color to white */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Keep the border if desired */
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: black; /* Changed background to black */
+  color: rgb(10, 24, 59); /* Changed text color to white */
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white; /* Button text color to match the theme */
+  background-color: rgb(
+    10,
+    24,
+    59
+  ); /* Button background color to match the theme */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #3c55f6; /* Darker green for hover effect */
+}
+
+.contact-info-container p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: white; /* Changed text color to white */
+}
