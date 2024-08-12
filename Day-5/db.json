@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "id": "5981",
+      "name": "Jon Stewart Doe",
+      "email": "test@example.us",
+      "password": "dfjdfkfdj",
+      "company": "Google"
+    }
+  ],
+  "providers": [
+    {
+      "id": "710e",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "company": "test"
+    },
+    {
+      "id": "93a3",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "company": "test"
+    },
+    {
+      "id": "ffaa",
+      "name": "test2",
+      "email": "test2@gmail.com",
+      "password": "test2",
+      "company": "test2"
+    }
+  ]
+}

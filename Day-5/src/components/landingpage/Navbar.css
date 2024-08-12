@@ -1,0 +1,81 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  color: #3d52a0;
+  font-family: Arial, sans-serif;
+  position: fixed; /* This will fix the navbar */
+  width: 95%; /* Ensure it spans the full width of the viewport */
+  top: 0; /* Position it at the top */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-logo i {
+  margin-right: 0.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap; /* Prevents wrapping of the links */
+  overflow: hidden; /* Hides any overflow to avoid breaking into new lines */
+}
+
+.navbar-links a {
+  color: #3d52a0;
+  text-decoration: none;
+  margin-left: 1.5rem; /* Adjust space between links */
+  font-size: 1rem;
+  white-space: nowrap; /* Prevents wrapping of text */
+  transition: color 0.3s;
+}
+
+.navbar-links button {
+  background-color: #7091e6; /* Red color for logout button */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-left: 1.5rem; /* Space between button and links */
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px; /* Optional: rounded corners */
+  transition: background-color 0.3s;
+}
+
+.navbar-links button:hover {
+  background-color: #8697c4; /* Darker red on hover */
+  transform: scale(1.05);
+}
+
+.navbar-links a:hover {
+  color: #7091e6;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links a {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
+}

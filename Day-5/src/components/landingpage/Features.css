@@ -1,0 +1,52 @@
+.features-section {
+  padding: 50px 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.features-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.features-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+  color: #000; /* Black text color */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+}
+
+/* Alternating card colors */
+.green-card {
+  background-color: #7091e6;
+}
+
+.grey-card {
+  background-color: #8697c4;
+}
